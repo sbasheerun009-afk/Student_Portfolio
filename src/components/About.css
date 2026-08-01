@@ -1,0 +1,38 @@
+.about {
+  padding: 80px 10%;
+  background-color: white;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 36px;
+  color: #111827;
+  margin-bottom: 30px;
+}
+
+.about-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-container p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 20px;
+  }
+
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .about-container p {
+    font-size: 16px;
+  }
+}
